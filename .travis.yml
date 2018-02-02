@@ -1,7 +1,7 @@
 language: android
 
 jdk:
-  - oraclejdk8
+  - oraclejdk7
 
 # we need the following license copying, cause travis fails to cooperate with android licenses
 # just so you know, those are not my licenses. Somebody posted them on StackOverflow.
@@ -12,7 +12,6 @@ before_install:
 
 android:
   components:
-    - tools
     - tools
     - platform-tools
     - build-tools-26.0.2
